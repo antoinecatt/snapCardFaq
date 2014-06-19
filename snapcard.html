@@ -13,8 +13,9 @@
 	
 
 	<body>
+
 <nav class="navbar navbar-default navbar navbar-static-top" role="navigation">
-  <div class="container">
+  <div class="container-fluid">
     <div class="navbar-brand">
       
         <a href="#"><img src="styles/logo-copper.svg"></a> 
@@ -33,9 +34,9 @@
     
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-left">
         <ul class="nav nav-pills">
-        <li class="default"><a href="#" class="navbar-text pull-left">Back to SnapCard</a></li>
+        <li class="default"><a href="#" class="navbar-text">Back to SnapCard</a></li>
         </ul>
         </li>
       </ul>       
@@ -44,9 +45,9 @@
       <ul class="nav navbar-nav navbar-right">
 
         <ul class="nav nav-pills">
-         <li class="default"><a href="#" class="navbar-text pull-right">Sign In</a></li>
+         <li class="default"><a href="#" class="navbar-text">Sign In</a></li>
 
-         <li clss="default"><a href="#" class="navbar-text pull-right">Sign Up</a></li>
+         <li class="default"><a href="#" class="navbar-text">Sign Up</a></li>
         </ul>
 
           </ul>
@@ -56,6 +57,7 @@
   </div><!-- /.container-fluid -->
 </nav>
 
+<div class="container">
 <h1 class="text-center">FAQ</h1>
 <div class="panel-group col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3" id="accordion">
   <div class="panel panel-default">
@@ -63,7 +65,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          WHAT IS BITCOIN?
+          WHAT IS BITCOIN?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -77,7 +79,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-          WHAT IS LITECOIN?
+          WHAT IS LITECOIN?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -91,7 +93,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-          HOW DOES IT WORK?
+          HOW DOES IT WORK?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -105,7 +107,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-          HOW TO CANCEL AN OPEN ORDER?
+          HOW TO CANCEL AN OPEN ORDER?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -119,7 +121,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-          HOW LONG DOES WITHDRAWAL USUALLY TAKE?
+          HOW LONG DOES WITHDRAWAL USUALLY TAKE?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -133,7 +135,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
-          IS IT SAFE TO USE BITSTAMP?
+          IS IT SAFE TO USE BITSTAMP?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -147,7 +149,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
-          HOW TO CANCEL AN OPEN ORDER?
+          HOW TO CANCEL AN OPEN ORDER?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -161,7 +163,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
-          HOW LONG DOES DEPOSIT USUALLY TAKE?
+          HOW LONG DOES DEPOSIT USUALLY TAKE?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -175,7 +177,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
-          HOW LONG DOES WITHDRAWAL USUALLY TAKE?
+          HOW LONG DOES WITHDRAWAL USUALLY TAKE?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -189,7 +191,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
-          HOW DOES IT WORK?
+          HOW DOES IT WORK?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -203,7 +205,7 @@
     <div class="panel-heading">
       <h4 class="panel-title">
         <a data-toggle="collapse" data-parent="#accordion" href="#collapseEleven">
-          IS IT SAFE TO USE BITSTAMP?
+          IS IT SAFE TO USE BITSTAMP?<b class="caret"></b>
         </a>
       </h4>
     </div>
@@ -214,9 +216,11 @@
     </div>
   </div>
 </div>
+</div>
 
-<div class="navbar navbar-default navbar-fixed-bottom">
-  <div class="container-fluid" id="footer">
+
+<div class="navbar navbar-default navbar-static-bottom" id="footer">
+  <div class="container navbar-text">
     <ul>
       <a href="#"><li>Privacy Policy</a></li>
       <a href="#"><li>Terms and Conditions</a></li>
@@ -226,6 +230,7 @@
     </ul>
   </div>
 </div>
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="script/bootstrap.js"></script>
     <script type="text/javascript" src="script/main.js"></script>
