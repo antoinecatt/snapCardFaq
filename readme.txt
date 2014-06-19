@@ -4,7 +4,5 @@ Implemented bootstrap on html page with collapse and sticky footer.
 
 Could not get logos to be centered.
 
-Basic styling implemented.
-
-Will improve on website after touching base on bootstrap again.
+Added JQuery and nav-pills to nav-bar
 
